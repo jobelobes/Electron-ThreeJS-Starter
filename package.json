@@ -1,0 +1,26 @@
+{
+  "name": "Electron_Threejs_Starter",
+  "version": "1.0.0",
+  "description": "Stater project for Electron & ThreeJS",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "keywords": [
+    "Electron",
+    "Threejs"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "@types/three": "^0.103.2",
+    "electron": "^8.0.2",
+    "tslint": "^6.0.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "three": "^0.114.0"
+  }
+}
